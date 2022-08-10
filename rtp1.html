@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>RTP1</title>
+          <link rel="shortcut icon" href="E:\RTprojects\RTP.html\images\unnamed.png">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+          <link rel="stylesheet" href="bt.css">
+          <link rel="stylesheet" href="rtp.js">
+          <!-- animated.css================================================ -->
+          <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</head>
+<body>
+          <section id="one">
+                    <img src="images/download.png" alt="">
+                    <h6>selling bikes since 2007</h6>
+                    <form action="" onsubmit="validate()" name="first">
+                              <input type="text" class="form" name="searchbar" placeholder="search bike or scooter" id="first">
+                              <button type="submit" class="btn btn-primary"><i class="bi bi-search"></i></button>
+                    </form>
+                    <script>
+                         aa=document.getElementById("first")
+                         console.log("aa")
+                         function validate(){
+                              aa=document.getElementById("first")
+                              if (aa.value==""){
+                                   alert("enter data")
+                              }   
+                         }
+                    </script>
+
+                    <select name="" id="select">
+                              <option value="">Select state</option>
+                              <option value="">Telangana</option>
+                              <option value="">Andhra Pradash</option>
+                              <option value="">Maharastra</option>
+                              <option value="">TamilNadu</option>
+                              <option value="">Kerala</option>
+                              <option value="">Gujarat</option>
+                              <option value="">Goa</option>
+                              <option value="">Madhya Pradesh</option>
+                              <option value="">Assam</option>
+                              <option value="">Bihar</option>
+                              <option value="">Delhi</option>
+                    </select>
+                    <!-- <select name="" class="signup"> -->
+                         
+                              <a href="login.html" class="signup btn btn-danger">Login</a>
+                              <!-- <a href="">signup</a> -->
+                    <!-- </select> -->
+          </section> 
+          <section id="two">
+                              <ul class="nav">
+                                   <a href=""><li>Sell Bike</li></a>
+                                   <a href=""><li id="l1">Buy Used Bike</li></a>
+                                   <a href=""><li>Buy New Bike</li></a>
+                                   <a href=""><li>Bike Loan</li></a>
+                                   <a href=""><li>Used Bike Valuation</li></a>
+                                   <a href=""><li>Dealers</li></a>
+                                   <a href=""><li>Cars</li></a>
+                                   <a href=""><li>More</li></a>
+                              </ul>
+                              
+                              <script src="jquery-3.6.0.js"></script>
+          </section>
+           <section id="three">
+                    
+                              <img src="images/motocross-ride-landscape-panoramic.jpg" alt="" width="100%" height="500px">
+          
+                    <h1 class="animate__animated animate__slideInLeft" align="right">Selling bikes <br> since 2007</h1>
+
+                    <h2 class="animate__animated animate__zoomIn">India's first bike portal</h2>
+
+                    <div id="sbb" class="animate__animated animate__fadeInUp">
+                         <a href="" class="sel">Sell Your Bike</a>
+                         <a href="" class="bui">Buy Used Bike</a>
+                         <a href="" class="nei">Buy New Bike</a>
+                    </div>
+          </section>
+          <section id="four">
+                    <div>
+                    <h1 class="old">Buy Used Bike</h1>
+                    <h1 class="new">Find New Bike</h1>
+                    <h2 class="extra"></h2>
+                    <h2 class="extra1"></h2>
+                                   <div class="rate">
+                                        <form action="" onsubmit="validate()">
+                                        <select name="" class="price" id="budget">
+                                                  <option value="">Budget</option>
+                                                  <option value="">10,000 - 20,000</option>
+                                                  <option value="">20,000 - 40,000</option>
+                                                  <option value="">40,000 - 60,000</option>
+                                                  <option value="">60,000 - 1 lakh</option>
+                                                  <option value="">1 lakh - 2 lakh</option> 
+                                        </select>
+                                        <select name="" class="state">
+                                                  <option value="">Select state</option>
+                                                  <option value="">Telangana</option>
+                                                  <option value="">Andhra Pradash</option>
+                                                  <option value="">Maharastra</option>                                                            <option value="">TamilNadu</option>
+                                                  <option value="">Kerala</option>
+                                                  <option value="">Gujarat</option>
+                                                  <option value="">Goa</option>
+                                                  <option value="">Madhya Pradesh</option>
+                                                  <option value="">Assam</option>
+                                                  <option value="">Bihar</option>
+                                                  <option value="">Delhi</option>
+                                        </select>
+                                        </form>
+                                        <!-- <script>
+                                             function validate(){
+                                                  bb=document.getElementById("budget")
+                                                  if(bb.value==""){
+                                                       alert("Enter any data")
+                                                  }
+                                             }
+                                        </script> -->
+                                   </div>
+                                   <div id="move">
+                                        <select name="" id="type">
+                                                  <option value="">Type</option>
+                                                  <option value="">MotorCycles</option>
+                                                  <option value="">Scooters</option>
+                                                  <option value="">Electrical</option>
+                                                  <option value="">ATV</option>
+                                                  <option value="">Mopeds</option>
+                                        </select>
+
+                                        <select name="" id="brand">
+                                                  <option value="">Brand</option>
+                                                  <option value=""></option>
+                                        </select>
+                                   </div>
+                                        <form action="">
+                                             <button id="submit2">GO</button>
+                                             <button id="submit">GO</button>
+                                        </form>
+                    </div>
+          </section>
+          <h1 class="head1">Sell your bike</h1>
+          
+               <section id="five">
+               <div id="fiv">
+                    <img src="images/images.jpg" alt="" width="100%" height="500px" class="five1">
+
+                    <div class="bestservice">
+                         <h1>"You deserve the best service<br> thats what we deliver"</h1>
+                    </div>
+                    <div class="sellbike">
+                         <h2>Choose a plan to sell your bike</h2>
+                    </div>
+                         <div class="box1">
+                              <div id="first">
+                                   <ul>
+                                        <li>Normal priority on search <br> results.</li>
+                                        <li>Takes usually 3 days to 3 <br> weeks to sell.</li>
+                                        <li>100% Money Back Guarantee <br> if not sold within 3 weeks</li>
+                                   </ul>
+                                   <div class="col- btn btn-outline-primary box2"><a href="">Basic Plan</a></div>
+                              </div>
+                         </div>
+                    </div>
+                         
+                         <div class="box3">
+                              <div>
+                              <ul>
+                                   <li>First priority on search <br> results</li>
+                                   <li>Takes usually 1 day to 2 <br> weeks to sell</li>
+                                   <li>100% Money Back Guarantee <br> if not sold within 2 weeks</li>
+                              </ul>
+                              <div class="col btn btn-outline-warning box4"><a href="">Premium</a></div>
+                              </div>
+                    </div>
+               </div>
+          </section>
+           <h1 class="para">
+               Used Bike Valuation
+          </h1> 
+          <!-- =======================section-six=================================== -->
+          <section id="section6">
+               <div id="six">
+                    <div class="six1">
+                    <div>
+                         <h4 align="center">Want to know how much your used two wheeler is worth?</h4> <br>
+
+                         <h5 align="center">Quoting the right price may help you in getting a lot more enquiries <br> for your used bike or scooter<br><br>
+                              Get an approximate value of your bike.
+                         </h5>
+                         
+                    </div>
+                         <div class="select">
+                              <form action="" name="bikes" onsubmit="return validate1()">
+                                   <select name="" id="ktm">
+                                        <option value="">Brand</option>
+                                        <option value="">KTM</option>
+                                        <option value="">BMW</option>
+                                        <option value="">Hero</option>
+                                        <option value="">Honda</option>
+                                        <option value="">Yamaha</option>
+                                        <option value="">Aprilla</option>
+                                        <option value="">Java</option>
+                                        <option value="">TVS</option>
+                                        <option value="">Bajaj</option>
+                                        <option value="">Kawasaki</option>
+                                   </select>
+                                   <select name="" id="bmw">
+                                        <Option>Selct Model</Option>
+                                        <Option></Option>
+                                   </select>
+                                   
+                         </div>
+                              <br><br>
+                         <div class="select1">
+                              <select id="hero">
+                                   <option value="">Select state</option>
+                                                  <option value="">Telangana</option>
+                                                  <option value="">Andhra Pradash</option>
+                                                  <option value="">Maharastra</option>                                                            
+                                                  <option value="">Kerala</option>
+                                                  <option value="">Gujarat</option>
+                                                  <option value="">Goa</option>
+                                                  <option value="">Madhya Pradesh</option>
+                                                  <option value="">Assam</option>
+                                                  <option value="">Bihar</option>
+                                                  <option value="">Delhi</option>
+                              </select>
+                         
+                         <select name="" id="honda">
+                              <option value="">Select Year</option>
+                              <option value="">2000</option>
+                              <option value="">2001</option>
+                              <option value="">2002</option>
+                              <option value="">2003</option>
+                              <option value="">2004</option>
+                              <option value="">2005</option>
+                              <option value="">2006</option>
+                              <option value="">2007</option>
+                              <option value="">2008</option>
+                              <option value="">2009</option>
+                              <option value="">2010</option>
+                              <option value="">2011</option>
+                              <option value="">2012</option>
+                              <option value="">2013</option>
+                              <option value="">2014</option>
+                              <option value="">2015</option>
+                              <option value="">2016</option>
+                              <option value="">2017</option>
+                              <option value="">2018</option>
+                              <option value="">2019</option>
+                              <option value="">2020</option>
+                              <option value="">2021</option>
+                              <option value="">2022</option>
+                         </select>
+                         </div>
+                         <br><br>
+                         <div class="select3">
+                         <h6>KMs Run <input type="text" placeholder="Enter Kms eg:20500"></h6>
+                         </div>
+                         <div class="select4"><a href="">Evaluate Your Bike</a></div>
+                    </div>
+                    
+                    <div class="six2">
+                     
+                         <h3 align="center">Secure Ownership Transfer</h3><br>
+                         <img src="images/Significance-of-Ownership-Transfer.jpg" class="img-item" alt="" width="300" height="200"><br>
+                         <a href="" class="rto"><h5>Online RTO Services</h5></a>
+                         <p>Use our RTO Service to safely transfer <br> ownership of the your bike or scooter and <br> be free from liabilities.</p>
+                    </div>
+               </div>
+
+               <!-- <script>
+                         function validate1(){
+                              div1 = document.bikes.ktm
+                              if(div1.value.length==0){
+                                   alert("Enter the brand")
+                              }
+
+                         }
+               </script> -->
+          </section>
+          <h1 class="top">Buy Used Bikes</h1>
+
+           <section id="seven">
+                    <div class="seven1" align="center">
+                         <h2 class="budget">Filter by Budget</h2>
+                         <ol align="center">
+                             <a href=""><li>Rs.1000 - Rs.10,000</li></a>
+                             <a href=""><li>Rs.10,000 - Rs.20,000</li></a>
+                             <a href=""><li>Rs.20,000 - Rs.40,000</li></a>
+                             <a href=""><li>Rs.40,000 - Rs.60,000</li></a>
+                             <a href=""><li>Rs.60,000 - Rs.80,000</li></a>
+                             <a href=""><li>Rs.80,000 - Rs.1 Lakh</li></a>
+                             <a href=""><li>Rs.1 Lakh - Rs.2 Lakh</li></a>
+                         </ol>
+                    </div>
+                    <div>
+                         <h2 class="filter">Filter By Brand</h2>
+                    </div>
+               
+               <div id="sixpics">
+                    <div id="con1">
+                         <div class="img1">
+                              <img src="images/hero.png" alt="" id="img11" width="150px" height="150px">
+                              <h3>Hero</h3>
+                         </div>
+                         <div class="img2">
+                              <img src="images/honda.jpg" alt="" id="img22" width="150px" height="150px">
+                         </div>
+                    </div>
+                    <div id="con2">
+                         <div class="img3">
+                              <img src="images/KTM.jpg" alt="" id="img33" width="150px" height="150px">
+                         </div>
+                         <div class="img4">
+                              <img src="images/royal enfield.png" alt="" id="img44" width="150px" height="150px">
+                         </div>
+                    </div>
+                    <div id="con3">
+                         <div class="img5">
+                              <img src="images/yamaha.jpg" alt="" id="img55" width="150px" height="150px">
+                         </div>
+                         <div class="img6"><img src="images/bmw.jpg" alt="" id="img66" width="150px" height="150px"></div>
+                    </div>
+               </div>
+          </section>
+          <section>
+               <div id="jombo">
+                    <div class="container-fluid">
+                         <div class="row">
+                              <div class="col-3" id="j1">
+                                   <li><h2>New Bike</h2></li>
+                                   <li><a href="">Offers</a></li>
+                                   <li><a href="">Electric Two-Wheelers</a></li>
+                                   <li><a href="">Motorcycle</a></li>
+                                   <li><a href="">Scooters</a></li>
+                                   <li><a href="">Mopeds</a></li>
+                                   <li><a href="">ATV</a></li>
+                                   <li><a href="">Custom Bike</a></li>
+                                   
+                              </div>
+                              <div class="col-3" id="jb2">
+                                   <li><h2>Used Bikes</h2></li>
+                                   <li><a href="">Banglore</a></li>
+                                   <li><a href="">Hyderabad</a></li>
+                                   <li><a href="">Mumbai</a></li>
+                                   <li><a href="">Chennai</a></li>
+                                   <li><a href="">Kolkata</a></li>
+                                   <li><a href="">Delhi</a></li>
+                                   <li><a href="">Ahmehdabad</a></li>
+                              </div>
+                              <div class="col-3" id="jb3">
+                                   <li><h2>Services</h2></li>
+                                   <li><a href="">Two-Wheeler Finance</a></li>
+                                   <li><a href="">Bike Valuation</a></li>
+                                   <li><a href="">Bike Selling Plans</a></li>
+                                   <li><a href="">Featured Listing</a></li>
+                                   <li><a href="">Used Bike Dealer Plan</a></li>
+                                   <li><a href="">Two-wheeler Insurance</a></li>
+                              </div>
+                              <div class="col-3" id="jb4">
+                                   <li><h2>About</h2></li>
+                                   <li><a href="">About us</a> | <a href="">Advertise</a></li>
+                                   <li><a href="">Help</a></li>
+                                   <li><a href="">Contact</a> | <a href="">Feedback</a></li>
+                                   <li><a href="">Refund Policy</a></li>
+                                   <li><a href="">T&C</a> | <a href="">Privacay Policy</a></li>
+                                   <li><a href="">Change Country</a></li>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <section>
+               <div id="get"><br><br>
+                    <h2>Bike4Sell - selling since 2007</h2><br>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png" alt="" width="300px" height="80px">
+               </div>
+          </section>
+     
+     </body>
+</html>

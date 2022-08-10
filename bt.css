@@ -1,0 +1,762 @@
+
+* a{
+  text-decoration: none;
+}
+#one{
+          border: 1px solid blue;
+          width: 100%;
+          height: 70px;
+          background-color: rgb(9, 9, 98);
+          overflow: hidden;
+}
+#one img{
+          width: 200px;
+          position: absolute;
+          top:20px;
+          left: 50px;
+}
+#one h6{
+          position: absolute;
+          top: 50px;
+          left: 120px;
+          color: white;
+}
+#one .form{
+          position: absolute;
+          top: 20px;
+          left: 300px;
+          width: 500px;
+          height: 35px;
+          border-radius: 5px;
+          text-align: center;
+}
+#one select{
+          position: absolute;
+          top: 20px;
+          left: 900px;
+          height: 40px;
+          border-radius: 5px;
+
+}
+#one .signup{
+          position: absolute;
+          left: 1130px;
+          top: 20px;
+          border-radius: 5px;
+          height: 40px;
+}
+#one form button{
+  position: absolute;
+  left: 750px;
+  top: 20px;
+  width: 50px;
+  height: 35px;
+}
+/* =================================================================================== */
+#two{
+  /* border: 2px solid red; */
+  display: flex;
+  width: 100%;
+}
+#two .nav li{
+  margin-left: 70px;
+  list-style: none;
+}
+#two .nav a{
+  text-decoration: none;
+  color: black;
+}
+
+#two .nav a:hover{
+ color: red;
+ font-weight: bolder;
+}
+
+/*================================================================ */
+ #three {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 500px;
+  margin: 0px;
+  position: relative;
+  top: 0px;
+  overflow: hidden;
+
+}
+#three h1{
+         
+         
+          position: absolute;
+          left: 200px;
+          top: 160px;
+          font-size: xx-large;
+          font-style: italic;
+          color: white;
+
+         }
+         #three h2{
+          position: absolute;
+          left: 100px;
+          top: 120px;
+          font-size:30px;
+          font-style: italic;
+          color: whitesmoke;
+           
+         }
+          img{
+           position: absolute; 
+         }
+         #sbb{
+           width: 650px;
+           height: 50px;
+           border-radius: 15px;
+           font-size: 30px;
+           font-style: italic;
+           position: absolute;
+           left: 20px;
+           top: 270px;
+           text-justify: distribute;
+           background-color: rgb(14, 14, 126);     
+           line-height: 50px;
+         }
+         .sel{
+           color: white;
+           padding-right: 25px;
+           padding-left: 25px;
+         }
+         .sel:hover{
+           color: white;
+         }
+         .bui{
+           color: white;
+           padding-right: 25px;
+         }
+         .bui:hover{
+           color: white;
+         }
+         .nei{
+           color: white;
+           padding-right: 25px;
+         }
+         .nei:hover{
+           color: white;
+         }
+         #three #sbb a{
+           text-decoration: none;
+         }
+
+         /*==================================================================================== */
+         /*=============================== h1 tag Buy Used Bike ==============================*/
+         #four{
+           border: 2px solid red;
+           width: 100%;
+           height: 200px;
+           overflow: hidden;
+           display: flex;
+           position: relative;
+           top: -150px;
+           border: hidden;
+         }
+         #four .old{
+          border: 1px solid blue;
+          width: 300px;
+          height: 60px;
+          background-color: rgb(241, 160, 10);
+          border-radius: 10px;
+          text-align: center;
+          position: relative;
+          top: 64px;
+          left: 150px;
+          border: hidden;
+
+         }
+         /* ===============================h1 tag Find new Bike========================= */
+         .new{
+          border: 1px solid blue;
+          width: 300px;
+          height: 60px;
+          background-color: rgb(241, 160, 10);
+          border-radius: 10px;
+          text-align: center;
+          line-height: 50px;
+          position: relative;
+          left: 700px;
+          border: hidden;
+         }
+          /* ===========================h2 extra box======================== */
+         .extra{
+           border: 1px solid red;
+           width: 500px;
+           height: 70px;
+           background-color: aliceblue;
+           border-radius: 10px;
+           position:relative ;
+           left: 150px;
+           top: -23px;
+           border: hidden;
+         }
+         .extra1{
+           border: 1px solid red;
+           width: 500px;
+           height: 70px;
+           background-color: aliceblue;
+           border-radius: 10px;
+           position: relative;
+           left: 700px;
+           top: -100px;
+           border: hidden;
+
+         }
+         /* ===========================option budget=================================*/
+        .price{
+          width: 185px;
+          height: 40px;
+        
+        }
+        .rate{
+          display: flex;
+          position: relative;
+          left:170px;
+          top: -160px;
+        }
+        /* ============================option state================================== */
+        .state{
+          width: 185px;
+          height: 40px;
+          margin-left: 5px;
+        }
+
+        /* ============================Type of vechicles=============================== */
+      #move{
+        position: relative;
+        left: 720px;
+        top: -200px;
+      }
+      #type{
+        width: 185px;
+        height: 40px;
+      }
+
+      #brand{
+        width: 185px;
+        height: 40px;
+      }
+      #submit{
+        width: 70px;
+        height: 40px;
+        position: relative;
+        left: 480px;
+        top: -240px;
+        background-color: rgb(39, 39, 255);
+        color: white;
+      }
+      #submit2{
+        width: 70px;
+        height: 40px;
+        position: relative;
+        left: 1100px;
+        top: -240px;
+        background-color: rgb(39, 39, 255);
+        color: white;
+      }
+      /* ===================================section-3 complete======================================== */
+      .head1{
+        position: relative;
+        top: -130px;
+        left: 50px;
+        font-size: xx-large;
+        opacity: 10;
+        color: rgb(51, 50, 50);
+        overflow: hidden;
+      }
+      /* ============================================================================= */
+      #fiv{
+        border: 2px solid red;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 750px;
+        overflow: hidden;
+        border: hidden;
+      }
+      #five img{
+        position: relative;
+        top: -0px;
+        filter: blur(8px);        /*=========to blur the image "filter blur()"*/ 
+      }
+      #five .bestservice{
+        position: relative;
+        left: 30px;
+        top: -300px;
+        font-size: xx-large;
+        font-family: bold;
+        color: rgb(143, 31, 31);
+      }
+      .sellbike{
+        position: relative;
+        top: -670px;
+        left: 700px;
+        font-size: x-large;
+        color: rgb(51, 50, 50);
+      }
+      .box1{
+        /* border: 1px solid red; */
+        width: 240px;
+        height: 350px;
+        position: relative;
+        top: -550px;
+        left: 700px;
+        background-color: white;
+        line-height: 20px;
+      }
+      li{
+        line-height: 40px;
+        list-style-type: disc;
+        text-align: left;
+      }
+      .box2{
+        position: relative;
+        left: 65px;
+        top: 20px;
+        color: bluex;
+      }
+      .box2 a:hover{
+        color: white;           /*=============================hover doubt=============== */
+      }
+      .box2 a{
+        text-decoration: none;
+      }
+       .box3{
+        /* border: 1px solid red; */
+        width: 240px;
+        height: 350px;
+        position: relative;
+        top: -5px;
+        left: 970px;
+        background-color: whitesmoke;
+       }
+       .box4{
+         position: relative;
+         left: 70px;
+         top: 20px;
+       }
+       .box4 a{
+         text-decoration: none;
+         color: orange;
+       }
+       .box4 a:hover{
+        color: white;
+       }
+      .para{
+        position: relative;
+        top: 50px;
+        left: 40px;
+      }
+      /* =================================================================================== */
+      /*===================outer box===========================*/
+      #six{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 550px;
+        position: relative;
+        top: 50px;
+        overflow: hidden;
+      }
+      .six1{
+        /* border: 1px solid blue; */
+        width: 60%;
+        height: 450px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background-color: whitesmoke;
+
+      }
+      #six .select{
+        position: relative;
+        top: 20px;
+        left: 220px;
+      }
+      #six .select1{
+        position: relative;
+        top: 10px;
+        left: 220px;
+      }
+      #six .select3{
+        position: relative;
+        left: 240px;
+      }
+      #six .select4{
+        /* border: 1px solid red; */
+        width: 300px;
+        height: 40px;
+        line-height: 34px;
+        text-align: center;
+        position: relative;
+        top:20px;
+        left: 215px;
+        background-color: rgb(47, 47, 199);
+        border-radius: 20px;
+        color: white;
+        font-size: x-large;
+        line-height: 35px;
+      }
+      #six .select4 a{
+        text-decoration: none;
+        color: white;
+      }
+      #ktm{
+        width: 150px;
+        text-align: center;
+        height: 40px;
+      }
+      #bmw{
+        width: 150px;
+        text-align: center;
+        height: 40px;
+      }
+      #hero{
+        width: 150px;
+        text-align: center;
+        height: 40px;
+      }
+      #honda{
+        width: 150px;
+        text-align: center;
+        height: 40px;
+      }
+      .six2{
+        /* border: 1px solid blue; */
+        width: 30%;
+        height: 450px;
+        position: absolute;
+        top: 50px;
+        left: 820px;
+        background-color: whitesmoke;  
+      }
+      #six .six2 .img-item{
+        position: relative;
+        left: 35px;
+      }
+      #six .six2 .rto{
+        color: red;
+        position: relative;
+        left: 35px;
+      }
+      #six .six2 a{
+        text-decoration: none;
+      }
+      #six .six2 p{
+        position: relative;
+        left: 35px;
+      }
+     
+      /* ============================secure ownership transfer================== */
+     
+      
+      /* ============================================================================== */
+
+      .top{
+        position: relative;
+        top: 0px;
+        left: 50px;
+        color: rgb(51, 41, 41);
+      }
+
+      /* ============================section seven================================== */
+      #seven{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 500px;
+        position: relative;
+        top: 0px;
+        transition: 3s;
+        background-color: whitesmoke;
+        overflow: hidden;
+      }
+      #seven .budget{
+        position: relative;
+        left: 40px;
+      }
+      .seven1{
+        /* border: 1px solid blue; */
+        width: 30%;
+        height: 400px;
+        position: relative;
+        top: 50px;
+        left: 20px;
+      }
+      .seven1 h2{
+        position: relative;
+        left: -60px;
+      }
+      #seven ol li{
+            color: black;
+            text-decoration: none ;
+            border-bottom: 1px solid whitesmoke;
+            padding-bottom: 18px;
+      }
+      ol{
+        /* border: 2px solid greenyellow; */
+        width: 200px;
+        height: 300px;
+        line-height: 50px;
+        text-align: left;
+
+      }
+      .seven1 ol li{
+        list-style: none;
+        font-weight: 700;
+
+      }
+      #seven .seven1 ol a{
+        text-decoration: none;
+      }
+      #seven .seven1 ol a li:hover{
+      transform: scale(1.2);
+      }
+      #seven .seven2{
+        border: 1px solid red;
+        width: 60%;
+        height: 400px;
+        position: absolute;
+        top: -350px;
+        left: 460px;
+        display: inline-flex;
+      }
+      /* ==========================Six Boxes======================================= */
+
+     /* #img1{
+       border: 2px solid red;
+       display: flex;
+     } */
+     
+     #sixpics{
+       /* border: 1px solid red; */
+       width: 60%;
+       height: 400px;
+       position: relative;
+       left: 470px;
+       top: -350px;
+       display: inline-flex;
+     }
+     .filter{
+       position: relative;
+       top: -360px;
+       left: 750px;
+     }
+     #con1{
+       /* border: 1px solid blue; */
+       width: 230px;
+       height: 400px;
+       margin-left: 10px;
+       display: block;
+       padding-left: 40px;
+
+     }
+     #con2{
+      /* border: 1px solid blue; */
+      width: 230px;
+      height: 400px;
+      margin-left: 10px;
+      display: block;
+     }
+     #con3{
+      /* border: 1px solid blue; */
+      width: 230px;
+      height: 400px;
+      margin-left: 10px;
+      display: block;
+     }
+     .img1{
+       /* border: 1px solid red; */
+       width: 200px;
+       height: 180px;
+       padding: 20px; 
+     }
+     .img1:hover{
+       transform: scale(1.2);
+     }
+     .img2{
+      /* border: 1px solid red; */
+      width: 200px;
+      height: 180px;
+      padding: 20px;
+     }
+     .img2:hover{
+      transform: scale(1.2);
+    }
+     .img3{
+      /* border: 1px solid red; */
+      width: 200px;
+      height: 180px;
+      padding: 20px;
+     }
+     .img3:hover{
+      transform: scale(1.2);
+    }
+     .img4{
+      /* border: 3px solid black; */
+      width: 200px;
+      height: 180px;
+      padding: 20px;
+     }
+     .img4:hover{
+       transform: scale(1.2);
+     }
+     .img5{
+      /* border: 1px solid red; */
+      width: 200px;
+      height: 180px;
+      padding: 20px;
+     }
+     .img5:hover{
+      transform: scale(1.2);
+    }
+     .img6{
+      /* border: 1px solid red; */
+      width: 200px;
+      height: 180px;
+      padding: 20px;
+     }
+     .img6:hover{
+      transform: scale(1.2);
+    }
+     /* ============================================================================================== */
+     .bar{
+      border: 5px solid orange;
+    }
+     #eigth{
+       /* border: 2px solid red; */
+       width: 95%;
+       height: 70px;
+       background-color: rgb(9, 9, 98);
+       /* border:; */
+       position: relative;
+       left: 35px;
+       
+     }
+     #eigth h1{
+       color: white;
+       line-height: 30px;
+     }
+     /* ========================================================================= */
+     #nine{
+       display:block ;
+       position: relative;
+       left: 35px;
+       border: 2px solid blue;
+       width: 95%;
+       height: 500px;
+       overflow: hidden;
+     }
+     #nine .lanch{
+       position: relative;
+       left: 250px;
+       top: 0px;
+     }
+     #nine .lanch a{
+       text-decoration: none;
+     }
+     #nine a{
+      position: relative;
+      left: 750px;
+      top: -45px;
+    }
+    #nine a{
+      text-decoration: none;
+    }
+     /* ======================================================================= */
+.container-fluid{
+  border: 2px solid red;
+
+}
+.container{
+  border: 1px solid blue;
+}
+
+
+
+/* =================================================================================== */
+
+/* jumbostran------------------------------- */
+
+#jombo{
+  background-color: grey;
+}
+.container-fluid{
+  border: hidden;
+}
+#jombo li h2{
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#jombo #j1 li a{
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+#jombo #j1 li a:hover{
+  text-decoration: underline ;
+}
+#jombo #j1 li{
+  list-style: none;
+}
+
+
+
+#jombo #jb2 li a{
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+
+}
+#jombo #jb2 li a:hover{
+  text-decoration: underline ;
+}
+
+#jombo #jb2 li{
+  list-style: none;
+}
+
+
+#jombo #jb3 li a{
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+
+#jombo #jb3 li a:hover{
+  text-decoration: underline ;
+}
+#jombo #jb3 li{
+  list-style: none;
+}
+
+
+#jombo #jb4 li a{
+  text-decoration: none;
+  color: white;
+  /* margin-left: 30px; */
+}
+
+#jombo #jb4 li a:hover{
+  text-decoration: underline ;
+}
+#jombo #jb4 li{
+  list-style: none;
+}
+
+
+/* ============================================================================== */
+
+#get{
+  background-color: darkgrey;
+  height: 200px;
+  text-align: center;
+  }
+
+#get img{
+  margin-left: -140px;
+}
+

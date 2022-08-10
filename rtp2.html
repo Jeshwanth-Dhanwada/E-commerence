@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+</head>
+<body>
+          <!-- <form action="" onsubmit="validate()" method="" name="for">
+                    <input type="text" placeholder="Enter first name" name="fname" id="fn"><br><br>
+                    <input type="text" placeholder="Enter last name" name="lname"><br><br>
+                    <select name="opti" id="">
+                              <option value="Languages">Select Courses</option>
+                              <option value="">python</option>
+                              <option value="">Java</option>
+                              <option value="">data science</option>
+                              <option value="">PHP</option>
+                              <option value="">Java script</option>
+                    </select><br><br>
+
+                    <button type="button" onclick="btn">submit</button>
+          </form> -->
+
+          <!-- <script>
+                              function validate(){
+                              aa=document.getElementById("fn")
+                              if (aa.value==""){
+                                   alert("enter data")
+                              }   
+                         }
+                    
+          </script> -->
+          <form action="" onsubmit="validate()" name="first">
+                    <input type="text" class="form" name="searchbar" placeholder="search bike or scooter" id="first"><br><br>
+                    <select name="" id="optio">
+                              <option value="1"></option>
+                              <option value="2">Python</option>
+                              <option value="3">Java</option>
+                              <option value="4">Data Science</option>
+                              <option value="5">Java script</option>
+                    </select><br><br>
+                    <button type="submit" class="btn btn-primary">click me</button>
+          </form>
+          <script>
+               aa=document.getElementById("first")
+               console.log("aa")
+               function validate(){
+                              aa=document.getElementById("first")
+                              bb=document.getElementById("optio")
+                              if (aa.value==""){
+                              alert("enter data")
+                              }   
+                              else if(bb.value.lenght=="optio"){
+                                        alert("data should not be empty")
+                              }
+                    }
+          </script>
+</body>
+</html>
